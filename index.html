@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <title>Recomendaciones de películas</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"><i class="bi bi-film"></i>Películas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a href="./precios.html" class="nav-link">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a href="./tyc.html" class="nav-link">Términos y condiciones</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contacto.html" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron p-5 bg-info"> 
+        <h1>Películas</h1>
+    </div>
+    <hr>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      
+      <hr>
+      <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Clásicos</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Premiaciones</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Joyas del Siglo XXI</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr>
+      
+      <h2>FAQs</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#funciona" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#ver" aria-expanded="false" aria-controls="multiCollapse2">¿Dónde puedo verlas?</button>
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">¿Cómo pago?</button>
+        </div>
+      </div>
+
+      <div class="d-flex" style="margin-bottom: 50px;">
+        <div class="col-sm-4 collapse multi-collapse card-faqs" id="funciona">
+          <p>
+            <h3>¿Cómo funciona?</h3>
+            <p>Buscá las películas de acuerdo al genero que te interese</p>
+          </p>
+        </div>
+        <div class="col-sm-4 collapse multi-collapse card-faqs" id="ver">
+          <p>
+            <h3>¿Dónde puedo verlas?</h3>
+            <p>Elegí la película que te interese y serás redireccionado a la plataforma en la que esté disponible</p>
+          </p>
+        </div>
+        <div class="col-sm-4 collapse multi-collapse card-faqs" id="pago">
+          <p>
+            <h3>¿Cómo pago?</h3>
+            <p>Nuestro servicio de recomendación es totalmente gratuito. El pago de la membresia de los servicios de streaming dependerá de las políticas de cada plataformma</p>
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="row">
+        <h3 class="col-sm-9" style="margin-top: 15px; margin-bottom: 15px;">¿Querés recibir toda la información sobre nuevos estrenos?</h3>
+        <button class="btn btn-outline-primary col-sm-3" id="btn-newsletter" type="button" data-bs-toggle="modal" data-bs-target="#newsletterModal">Suscribite a nuestro newsletter</button>
+      </div>
+      <hr>
+      
+      <div class="row">
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/pulp-fiction.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Pulp Fiction <i class="bi bi-award text-primary" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ganadora de 1 premio Óscar" data-bs-title="Premiaciones"></i></h5>
+            <h6 class="card-subtitle text-muted">Géneros: Crimen, Thriller</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>
+        </div>
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/amelie.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Amelie</h5>
+            <h6 class="card-subtitle text-muted">Géneros: Romance, Comedia</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>    
+        </div>
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/gone-girl.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Gone Girl</h5>
+            <h6 class="card-subtitle text-muted">Géneros: Drama, Thriller, Misterio</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>
+        </div>
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/killers.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Killers of the Flower Moon</h5>
+            <h6 class="card-subtitle text-muted">Géneros: Historia, Crimen, Drama</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      
+      <div class="row">
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/oppenheimer.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Oppenheimer</h5>
+            <h6 class="card-subtitle text-muted">Géneros: Historia, Drama</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>
+        </div>
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/poor-things.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Poor Things <span class="badge bg-success">En cines</span></h5>
+            <h6 class="card-subtitle text-muted">Géneros: Ciencia Ficción, Comedia</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>
+        </div>
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/frances-ha.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Frances Ha</h5>
+            <h6 class="card-subtitle text-muted">Géneros: Drama, Comedia</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>
+        </div>
+        <div class="card card-movie d-flex flex-column justify-content-between">
+          <img src="images/whiplash.jpg" alt="" class="img-fluid card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Whiplash <i class="bi bi-award text-primary" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Premiaciones" data-bs-content="Ganadora de 3 premios Óscar"></i></h5>
+            <h6 class="card-subtitle text-muted">Géneros: Música, Drama</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius harum dolorum debitis iste, ad similique ullam quidem quasi nihil sed ducimus rerum nemo incidunt ut officia fugit tempora corporis.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-watch"><i class="bi bi-tv"></i>Ver</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="newsletterModalLabel">Suscribite a nuestro newsletter</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Nombre</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-lastName" class="col-form-label">Apellido</label>
+            <input type="text" class="form-control" id="recipient-lastName">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email</label>
+            <input type="email" class="form-control" id="recipient-email">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <footer>
+      <div class="row">
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="https://facebook.com"><i class="bi bi-facebook"></i>Facebook</a>
+        <a href="https://instagram.com"><i class="bi bi-instagram"></i>Instagram</a>
+        <a href="https://linkedin.com"><i class="bi bi-linkedin"></i>LinkedIn</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column">
+        <address>
+          <p> <i class="bi bi-house"></i>Tucumán 834, CABA, Argentina</p>
+          <p><i class="bi bi-phone"></i>+54911234567</p>
+          <p><i class="bi bi-envelope"></i>contacto@guiapeliculas.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="https://facebook.com">Nosotros</a>
+        <a href="https://instagram.com">Términos y condiciones</a>
+        <a href="https://linkedin.com">Contacto</a>
+      </div>
+    </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then tooltip, then popovers -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+  <script>
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+  <script>
+    $(function(){
+      $('.carousel').carousel({
+      interval: 3000
+      });
+
+      const myModalEl = document.getElementById('newsletterModal')
+      myModalEl.addEventListener('show.bs.modal', event => {
+       console.log('El elemento se está mostrando')
+        $('#btn-newsletter').removeClass('btn-outline-primary')
+        $('#btn-newsletter').addClass('btn-outline-dark')
+        $('#btn-newsletter').prop('disabled', true)
+      })
+
+      myModalEl.addEventListener('shown.bs.modal', event => {
+       console.log('El elemento se mostró')
+      })
+
+      myModalEl.addEventListener('hide.bs.modal', event => {
+       console.log('El elemento se está ocultando')
+      })
+
+      myModalEl.addEventListener('hidden.bs.modal', event => {
+       console.log('El elemento se ocultó')
+        $('#btn-newsletter').removeClass('btn-outline-dark')
+        $('#btn-newsletter').addClass('btn-outline-primary')
+        $('#btn-newsletter').prop('disabled', false)
+      })
+    })
+  </script>
+</body>
+</html>

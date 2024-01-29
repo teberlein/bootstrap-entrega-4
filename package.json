@@ -1,0 +1,29 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "proyecyo node js",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tatoeberlein@bitbucket.org/tatoeberlein/guia-hoteles.git"
+  },
+  "author": "Tomás Eberlein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/tatoeberlein/guia-hoteles/issues"
+  },
+  "homepage": "https://bitbucket.org/tatoeberlein/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  }
+}

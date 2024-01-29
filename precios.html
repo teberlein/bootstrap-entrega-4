@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <title>Recomendaciones de películas</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a href="./index.html" class="navbar-brand"><i class="bi bi-film"></i>Películas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a href="./precios.html" class="nav-link active" aria-current="page">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a href="./tyc.html" class="nav-link">Términos y condiciones</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contacto.html" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron p-5 bg-info"> 
+        <h1>Películas</h1>
+    </div>
+    <hr>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Precios</li>
+            </ol>
+        </nav>
+      <hr>
+
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-precios-tab" data-bs-toggle="pill" data-bs-target="#pills-precios" type="button" role="tab" aria-controls="pills-precios" aria-selected="true">Precios</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-tarjetas-tab" data-bs-toggle="pill" data-bs-target="#pills-tarjetas" type="button" role="tab" aria-controls="pills-tarjetas" aria-selected="false">Tarjetas</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Comentarios</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-precios" role="tabpanel" aria-labelledby="pills-precios-tab" tabindex="0">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="table-dark">
+                <th>Plan</th>
+                <th>Netflix</th>
+                <th>Disney+</th>
+                <th>HBO Max</th>
+                <th>Amazon Prime</th>
+                <th>Apple TV</th>
+                <th>Star Plus</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Básico</td>
+                  <td>$130</td>
+                  <td>$120</td>
+                  <td>$150</td>
+                  <td>$90</td>
+                  <td>$150</td>
+                  <td>$115</td>
+                </tr>
+                <tr>
+                  <td>Estándar</td>
+                  <td>$180</td>
+                  <td>$150</td>
+                  <td>$190</td>
+                  <td>$120</td>
+                  <td>$175</td>
+                  <td>$130</td>
+                </tr>
+                <tr>
+                  <td>Premium</td>
+                  <td>$250</td>
+                  <td>$175</td>
+                  <td>$200</td>
+                  <td>$150</td>
+                  <td>$210</td>
+                  <td>$160</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-tarjetas" role="tabpanel" aria-labelledby="pills-tarjetas-tab" tabindex="0">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="table-dark">
+                <th>Servicio</th>
+                <th>Mastercard</th>
+                <th>Visa</th>
+                <th>American Express</th>
+                <th>PayPal</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Netflix</td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-x-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Disney+</td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-x-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>HBO Max</td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-x-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Amazon Prime</td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-x-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Apple TV</td>
+                  <td><i class="bi bi-x-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Star Plus</td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-check-lg"></i></td>
+                  <td><i class="bi bi-x-lg"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+          <div class="accordion" id="accordionComentarios">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Período de prueba
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionComentarios">
+                <div class="accordion-body">
+                  <p>Tené en cuenta que casi todos los servicios de streaming cuentan con un período de prueba que va desde una semana hasta un mes.</p> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Momento de cancelación
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionComentarios">
+                <div class="accordion-body">
+                  <p>Casi todos los servicios descuentan los fondos de tu cuenta cada mes el mismo día. Hay otros casos en los que el descuento se da siempre cada 30 días. Para estar seguro consultá siempre los terminos y condiciones del servicio antes de contratarlo.</p> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Tip período de prueba
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionComentarios">
+                <div class="accordion-body">
+                  <p>Si contrataste el período de prueba solo para ver una película y después queres dar de baja el servicio, te recomendamos que lo canceles tan pronto como termines de ver la película. De esta forma no vas a olvidarte de hacerlo pero continuarás teniendo acceso a la plataforma hasta que finalice el período de prueba.</p> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+      
+
+    <footer>
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="https://facebook.com"><i class="bi bi-facebook"></i>Facebook</a>
+          <a href="https://instagram.com"><i class="bi bi-instagram"></i>Instagram</a>
+          <a href="https://linkedin.com"><i class="bi bi-linkedin"></i>LinkedIn</a>
+        </div>
+        <div class="col-sm-4 d-flex flex-column">
+          <address>
+            <p> <i class="bi bi-house"></i>Tucumán 834, CABA, Argentina</p>
+            <p><i class="bi bi-phone"></i>+54911234567</p>
+            <p><i class="bi bi-envelope"></i>contacto@guiapeliculas.com</p>
+          </address>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <a href="https://facebook.com">Nosotros</a>
+          <a href="https://instagram.com">Términos y condiciones</a>
+          <a href="https://linkedin.com">Contacto</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
