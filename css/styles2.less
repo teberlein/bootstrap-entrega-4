@@ -1,0 +1,50 @@
+@gris: #dcdcdc;
+@azul: #2596be;
+@rojo: #D53E44;
+@verde: #71D352;
+
+.margenes(@top: 0px, @right: 0px, @bottom: 0px, @left: 0px) {
+    margin-top: @top;
+    margin-right: @right;
+    margin-bottom: @bottom;
+    margin-left: @left;
+}
+
+.jumbotron {
+    .margenes(50px, 0px, 0px, 0px);
+    background-color: @azul;
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: @gris;
+    margin-top: 10px;
+    .margenes(10px, 0px, 0px, 0px)
+}
+
+.card-movie {
+    flex: 1 200px;
+    .margenes(10px, 3px, 0px, 3px);
+    padding: 0px;
+}
+
+.card-faqs {
+    .margenes(0px, 10px, 0px, 5px)
+}
+
+.btn-watch {
+    width: 100%;
+    border-radius: 0%;
+}
+
+i {
+    padding-right: 10px;
+}
+
+address p {
+    .margenes(0px, 0px, 5px, 0px)
+}
+
+img {
+    width: 100%;
+}
